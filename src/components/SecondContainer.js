@@ -20,7 +20,7 @@ const SecondContainer = () => {
           <li><b>Multiline Command Entry:</b> Seamlessly write and execute multiline code, such as functions, in Python or Node.js interactive shell.</li>
           <li><b>Interactive Package Manager:</b> List installed packages or dependencies and manage updating or uninstalling them directly in the terminal window with a click of a button.</li>
       </ul>
-      <p>Experience a smarter, more efficient way to manage your terminal tasks with our app. Whether you're a developer or a power user, our app is tailored to make your workflow smoother and more intuitive.</p>
+      <p>Experience a more efficient way to manage your terminal tasks with our app. Whether you're a developer or a power user, our app is tailored to make your workflow smoother and more intuitive.</p>
       <a href="https://vizenv.xyz">https://vizenv.xyz</a>
     </div>
   );
