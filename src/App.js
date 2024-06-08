@@ -1,25 +1,4 @@
-// import React from 'react';
-// import { useSpring, animated } from 'react-spring';
-// import NavBar from './components/NavBar';
-// import MainContainer from './components/MainContainer';
-// import SecondContainer from './components/SecondContainer';
-// import ThirdContainer from './components/ThirdContainer';
-// import './App.css';
-
-// function App() {
-//   return (
-//     <div className="App">
-//       <NavBar />
-//       <MainContainer />
-//       <SecondContainer />
-//       <ThirdContainer />
-//     </div>
-//   );
-// }
-
-// export default App;
-
-import React, { useRef } from 'react';
+import React, { useRef, useEffect } from 'react';
 import NavBar from './components/NavBar';
 import MainContainer from './components/MainContainer';
 import SecondContainer from './components/SecondContainer';
@@ -29,6 +8,10 @@ import './App.css';
 function App() {
   const aboutRef = useRef(null);
   const downloadRef = useRef(null);
+
+  useEffect(() => {
+    document.title = "VizEnv"
+ }, []);
 
   const scrollToSection = (ref) => {
     ref.current.scrollIntoView({ behavior: 'smooth' });
