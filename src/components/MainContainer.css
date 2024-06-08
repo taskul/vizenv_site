@@ -1,0 +1,24 @@
+.main-container {
+    top: 40px;
+    position: relative;
+    overflow: hidden;
+    height: 100vh;
+  }
+  
+  .main-container .title {
+    font-size: 3em;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.475);
+  }
+  
+  .main-container video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
