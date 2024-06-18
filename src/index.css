@@ -26,11 +26,12 @@ code {
   align-items: center;
 }
 
-li { 
+table td{ 
   display: flex;
+  flex-direction: row;
   align-items: start;
   margin: 10px;
-  font-size: 1rem;
+  font-size: 1.2rem;
   
 }
 
@@ -46,4 +47,10 @@ li {
   margin: 4px 2px;
   cursor: pointer;
   border-radius: 12px;
+}
+
+@media (min-width: 40rem){
+  table td{ 
+    align-items: center;    
+  }
 }
