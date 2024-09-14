@@ -49,6 +49,22 @@ table td{
   border-radius: 12px;
 }
 
+.secondary-button {
+  background-color: white;
+  border: 1px solid #1e1e1e;
+  color: #1e1e1e;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+  position: relative;
+  bottom: -130px;
+}
+
 @media (min-width: 40rem){
   table td{ 
     align-items: center;    
